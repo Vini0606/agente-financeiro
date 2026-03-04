@@ -1,7 +1,11 @@
 [project]
 name = "agente-financeiro"
 version = "0.1.0"
-description = "Add your description here"
+description = "Agente IA para coleta de despesas de funcionários com comprovantes"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai-agents>=0.10.4",
+    "pydantic>=2.0.0",
+]
